@@ -1,6 +1,6 @@
 ## 抖音视频解析
 
-使用方式：
+### 使用方式：
 - npm run start运行项目，打开http://localhost:3000/api/getUrl?url=https://v.douyin.com/1q2w3e4r
 - url后面的参数为抖音的链接，可以在抖音直接点击复制链接，接口会自动解析url参数
 - 返回参数
@@ -13,3 +13,7 @@
   "code": 200
 } 
 ```
+### 部署
+- 支持自动在vercel上部署，只需要配置对应的token即可；
+- 代码提交自动部署；
+- 具体部署方式参考：https://juejin.cn/post/7023690214803505166#heading-5
